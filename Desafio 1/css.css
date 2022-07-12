@@ -1,0 +1,281 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  position: relative;
+  width: 1440px;
+  height: 1767px;
+
+  background: #22212C;
+}  */
+
+.container {
+  width: 348px;
+  height: 292px;
+  left: 40px;
+  top: 40px;
+  right: 1052px;
+  bottom: 1435px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#container1 {
+  position: absolute;
+  width: 348px;
+  height: 292px;
+  left: 40px;
+  top: 40px;
+
+}
+
+.img {
+  box-sizing: border-box;
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 120px;
+  top: 30px;
+  border-radius: 50%;
+  background: url(image.png);
+  border: 2px solid #00FF00;
+}
+
+.name {
+  position: absolute;
+  width: 196px;
+  height: 26px;
+  left: 90px;
+  top: 185px;
+
+
+
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+
+  color: #837E9F;
+}
+
+.obj {
+  position: absolute;
+  width: 128px;
+  height: 17px;
+  left: 120px;
+  top: 217px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837E9F;
+}
+
+#container2 {
+  position: absolute;
+  width: 348px;
+  height: 348px;
+  left: 40px;
+  top: 362px;
+}
+
+#container3 {
+  position: absolute;
+  width: 348px;
+  height: 208px;
+  left: 40px;
+  top: 740px;
+
+}
+
+#container4 {
+  position: absolute;
+  width: 348px;
+  height: 349px;
+  left: 40px;
+  top: 978px;
+}
+
+#container5 {
+  position: absolute;
+  width: 348px;
+  height: 352px;
+  left: 40px;
+  top: 1357px;
+}
+
+#container6 {
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 40px;
+}
+
+#container7 {
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  left: 448px;
+  top: 157px;
+}
+
+#container8 {
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  left: 939px;
+  top: 157px;
+
+}
+
+#container9 {
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 373px;
+}
+
+#container10 {
+  position: absolute;
+  width: 952px;
+  height: 201px;
+  left: 448px;
+  top: 489px;
+}
+
+
+
+.list1 {
+  list-style: none;
+  display: flex;
+  
+}
+
+.list1 {
+  position: absolute;
+  width: 10px;
+  height: 24px;
+  left: 40px;
+  top: 30px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837E9F;
+
+}
+
+.list2 {
+  list-style: none;
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 40px;
+  top: 74px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #837E9F;
+}
+
+.list3 {
+  list-style: none;
+  position: absolute;
+  width: 100px;
+  height: 16px;
+  left: 40px;
+  top: 118px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837E9F;
+}
+
+.list4 {
+  list-style: none;
+  position: absolute;
+  width: 109px;
+  height: 24px;
+  left: 40px;
+  top: 162px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837E9F;
+}
+
+.list5 {
+  list-style: none;
+  position: absolute;
+  width: 109px;
+  height: 24px;
+  left: 40px;
+  top: 206px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #837E9F;
+}
+
+.list6 {
+  list-style: none;
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  left: 40px;
+  top: 250px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #837E9F;
+}
+
+.list7 {
+  list-style: none;
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  left: 40px;
+  top: 294px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #837E9F;
+}
+
