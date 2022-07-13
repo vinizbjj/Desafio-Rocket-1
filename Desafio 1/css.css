@@ -11,13 +11,13 @@
   box-sizing: border-box;
 }
 
-/* body {
+body {
   position: relative;
   width: 1440px;
   height: 1767px;
 
   background: #22212C;
-}  */
+}
 
 .container {
   width: 348px;
@@ -37,16 +37,15 @@
   height: 292px;
   left: 40px;
   top: 40px;
-
 }
 
-.img {
+.img1 {
   box-sizing: border-box;
   position: absolute;
   width: 128px;
   height: 128px;
-  left: 120px;
-  top: 30px;
+  left: 110px;
+  top: 32px;
   border-radius: 50%;
   background: url(image.png);
   border: 2px solid #00FF00;
@@ -56,18 +55,13 @@
   position: absolute;
   width: 196px;
   height: 26px;
-  left: 90px;
-  top: 185px;
-
-
-
-
+  left: 76px;
+  top: 190px;
   font-family: 'Merriweather Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
   line-height: 29px;
-
   color: #837E9F;
 }
 
@@ -75,8 +69,8 @@
   position: absolute;
   width: 128px;
   height: 17px;
-  left: 120px;
-  top: 217px;
+  left: 110px;
+  top: 226px;
   font-family: 'Merriweather Sans';
   font-style: normal;
   font-weight: 300;
@@ -159,12 +153,9 @@
   top: 489px;
 }
 
-
-
 .list1 {
   list-style: none;
   display: flex;
-  
 }
 
 .list1 {
@@ -219,7 +210,6 @@
   height: 24px;
   left: 40px;
   top: 162px;
-
   font-family: 'Merriweather Sans';
   font-style: normal;
   font-weight: 400;
@@ -279,3 +269,765 @@
   color: #837E9F;
 }
 
+#tec {
+  position: absolute;
+  width: 121px;
+  height: 26px;
+  left: 20px;
+  top: 30px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+
+
+  color: #837E9F;
+}
+
+#js {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 30px;
+  top: 76px;
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.js {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  color: #000000;
+}
+
+#reactjs {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 131px;
+  top: 76px;
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.reactjs {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#nodejs {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 232px;
+  top: 76px;
+
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.nodejs {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+#git {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 30px;
+  top: 115px;
+
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.git {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+#github {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 131px;
+  top: 115px;
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.github {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#html {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 232px;
+  top: 115px;
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.html {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#css {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 30px;
+  top: 154px;
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.css {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#elixir {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 131px;
+  top: 154px;
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.elixir {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#css {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 30px;
+  top: 154px;
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.css {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#reactnative {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 232px;
+  top: 154px;
+  background: #CB92B1;
+  border-radius: 30px;
+}
+
+.reactnative {
+  position: absolute;
+  width: 86px;
+  height: 11px;
+  top: 6px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.exp {
+  position: absolute;
+  width: 141px;
+  height: 26px;
+  left: 60px;
+  top: 1008px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+}
+
+.explist {
+  position: absolute;
+  width: 175px;
+  height: 243px;
+  left: 100px;
+  top: 1054px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+
+}
+
+
+.education {
+  position: absolute;
+  width: 141px;
+  height: 26px;
+  left: 60px;
+  top: 1387px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+}
+
+.edulist {
+  position: absolute;
+  width: 175px;
+  height: 246px;
+  left: 80px;
+  top: 1433px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+}
+
+.myprojects {
+  position: absolute;
+  width: 121px;
+  height: 26px;
+  left: 478px;
+  top: 70px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+}
+
+.vejatodos {
+  position: absolute;
+  width: 80px;
+  height: 18px;
+  left: 1299px;
+  top: 74px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+
+}
+
+.destaque1 {
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  left: 448px;
+  top: 157px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#icon1 {
+  position: absolute;
+  width: 16.67px;
+  height: 15px;
+  left: 30px;
+  top: 30px;
+}
+
+.name1 {
+  position: absolute;
+  width: 79px;
+  height: 17px;
+  left: 66px;
+  top: 31px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #837E9F;
+
+
+}
+
+.text1 {
+  position: absolute;
+  width: 421px;
+  height: 19px;
+  left: 30px;
+  top: 70px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #837E9F;
+}
+
+.star1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 30px;
+  top: 136px;
+}
+
+.starnum {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 58px;
+  top: 138px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+
+.git1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 102px;
+  top: 136px;
+}
+
+.gitnum1 {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 130px;
+  top: 138px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+
+.iconjs1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 339px;
+  top: 138px;
+  background: #E7DE79;
+  border: 2px solid #837E9F;
+  border-radius: 50%;
+}
+
+.js1 {
+  position: absolute;
+  width: 69px;
+  height: 16px;
+  left: 362px;
+  top: 138px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+
+}
+
+.destaque2 {
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#icon2 {
+  position: absolute;
+  width: 16.67px;
+  height: 15px;
+  left: 30px;
+  top: 30px;
+}
+
+.name2 {
+  position: absolute;
+  width: 79px;
+  height: 17px;
+  left: 66px;
+  top: 31px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #837E9F;
+
+}
+
+.text2 {
+  position: absolute;
+  width: 421px;
+  height: 19px;
+  left: 30px;
+  top: 70px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #837E9F;
+}
+
+.star2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 30px;
+  top: 136px;
+}
+
+.starnum2 {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 58px;
+  top: 138px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+
+.git2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 102px;
+  top: 136px;
+}
+
+.gitnum2 {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 130px;
+  top: 138px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+
+.iconjs2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 339px;
+  top: 138px;
+  background: #E7DE79;
+  border: 2px solid #837E9F;
+  border-radius: 50%;
+}
+
+.js2 {
+  position: absolute;
+  width: 69px;
+  height: 16px;
+  left: 362px;
+  top: 138px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+
+}
+
+.destaque3 {
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.posts {
+  position: absolute;
+  width: 140px;
+  height: 26px;
+  left: 30px;
+  top: 30px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+}
+
+.destaque4 {
+  position: absolute;
+  width: 952px;
+  height: 201px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.img2 {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 30px;
+  top: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.rowd4 {
+  position: absolute;
+  width: 612px;
+  height: 129px;
+  left: 178px;
+  top: 30px;
+}
+
+.title4 {
+  position: absolute;
+  width: 612px;
+  height: 31px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #837E9F;
+}
+
+.timing4 {
+  position: absolute;
+  width: 83px;
+  height: 18px;
+  top: 30px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+}
+
+.subtitle4 {
+  position: absolute;
+  width: 501px;
+  height: 20px;
+  top: 77px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #837E9F;
+}
+
+.hashtags4 {
+  position: absolute;
+  width: 446px;
+  height: 21px;
+  top: 108px;
+}
+
+.hash1 {
+  position: absolute;
+  width: 110px;
+  height: 21px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+
+}
+
+.hash2 {
+  position: absolute;
+  width: 102px;
+  height: 21px;
+  left: 100px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+
+}
+
+.hash3 {
+  position: absolute;
+  width: 102px;
+  height: 21px;
+  left: 200px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+
+}
+
+
+.hash4 {
+  position: absolute;
+  width: 102px;
+  height: 21px;
+  left: 300px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+
+}
