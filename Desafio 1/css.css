@@ -15,9 +15,19 @@ body {
   position: relative;
   width: 1440px;
   height: 1767px;
-
+  height: 100%;
+  width: 100%;
   background: #22212C;
 }
+
+/*responsividade*/
+.sidebar {
+  width: 25%;
+  height: 100%;
+  background: gray;
+  float: left;
+}
+
 
 .container {
   width: 348px;
@@ -26,6 +36,8 @@ body {
   top: 40px;
   right: 1052px;
   bottom: 1435px;
+  width: 100%;
+  height: 100%;
   background: #302F3D;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -118,6 +130,7 @@ body {
   height: 86px;
   left: 448px;
   top: 40px;
+  
 }
 
 #container7 {
@@ -126,7 +139,10 @@ body {
   height: 186px;
   left: 448px;
   top: 157px;
+  
 }
+
+
 
 #container8 {
   position: absolute;
